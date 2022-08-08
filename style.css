@@ -1,8 +1,27 @@
 *{
     text-decoration: none;
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    background-color: #35363A;
+    background-color: rgb(35, 37, 43);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 44px, 33px;
+}
+
+.greetings {
+    font-size: 50px;
+    font-family: Bubblegum sans;
 }
