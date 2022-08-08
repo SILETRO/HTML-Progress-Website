@@ -1,13 +1,14 @@
 *{
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.578);
+    color: rgba(0, 0, 0, 0.84);
     padding: 0;
     margin: 0;
+
 }
 
 body {
     background-color: rgb(35, 37, 43);
-    /* background-color: #eff9ff; */
+    background-color: white;
     display: flex;
     font-size: 16px;
     text-align: center;
@@ -20,10 +21,11 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 .navbar a{
     font-size: 20px;
-    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    /* font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; */
     padding: 8px 16px;
     margin: 2px;
 }
@@ -35,19 +37,35 @@ body {
 }
 
 .greetings {
-    /* font-family: 'Elianto', sans-serif;                                                                  */
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
-    color: #ffe8c2ad;
-    padding-top: 20vh;
+    /* color: #ffe8c2ad; */
+    color: #908577;
+    padding-top: 17vh;
     padding-bottom: 3vh;
 }
 
 p {
     font-size: 20px;
-    padding-top: 22px;
-    padding-right: 8px;
+    margin-top: 22px;
+    margin-right: 8px;
 }
 
 /* About Page */
 
+.heading-about{
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: #908577;
+    text-align: left;
+    
+    
+}
+.main-paragraph-about{
+    /* border: 2px solid black; */
+    margin-left: 11%;
+    margin-right: 20%;
+    margin-top: 11%;
+    line-height: 5vh;
+    text-align: left;
+}
