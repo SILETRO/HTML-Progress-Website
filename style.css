@@ -60,6 +60,8 @@ p {
     opacity: 69%;
     line-height: 30px;
     flex-wrap: wrap;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
 
 /* About Page */
