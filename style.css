@@ -1,15 +1,15 @@
-*{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.84);
+* {
+    /* color: rgba(249, 248, 241, 0.84); */
+    color: #1d1d1d;
     padding: 0;
     margin: 0;
-
 }
 
 body {
     background-color: rgb(35, 37, 43);
     background-color: white;
     display: flex;
+    font-family: 'Rubik';
     font-size: 16px;
     text-align: center;
     justify-content: center;
@@ -23,15 +23,17 @@ body {
     flex-wrap: wrap;
 
 }
-.navbar a{
+
+.navbar a {
     font-size: 20px;
-    /* font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; */
-    padding: 8px 16px;
+    padding: 8px 14px;
     margin: 2px;
+    text-decoration: none;
+    color: rgb(94, 92, 92);
+    opacity: 85%;
 }
 
-.navbar a:hover{
-    /* background-color: aliceblue; */
+.navbar a:hover {
     text-decoration: underline;
     border-radius: 3px;
 }
@@ -39,33 +41,58 @@ body {
 .greetings {
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
-    /* color: #ffe8c2ad; */
     color: #908577;
     padding-top: 17vh;
     padding-bottom: 3vh;
 }
 
+h1{
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: #908577;
+    padding-bottom: 2vh;
+}
+
 p {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 22px;
     margin-right: 8px;
+    opacity: 69%;
+    line-height: 30px;
+    flex-wrap: wrap;
 }
 
 /* About Page */
 
-.heading-about{
-    font-size: 50px;
-    font-family: 'Oswald', sans-serif;
-    color: #908577;
+.heading-about {
     text-align: left;
-    
-    
+    position: absolute;
+    top: 17%;
+    left: 13%;
 }
-.main-paragraph-about{
-    /* border: 2px solid black; */
-    margin-left: 11%;
-    margin-right: 20%;
-    margin-top: 11%;
-    line-height: 5vh;
+
+.main-paragraph-about {
     text-align: left;
+    width: 70%;
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    padding-bottom: 10%;
+}
+
+.main-paragraph-about p a {
+    text-decoration: none;
+    color: #b775b7;
+
+}
+
+.main-paragraph-about p a:visited {
+    color: #4f59ae;
+
+}
+
+/* Portfolio */
+
+#port{
+    padding-top: 3%;
 }
